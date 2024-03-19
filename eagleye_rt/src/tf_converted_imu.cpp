@@ -38,10 +38,11 @@
 #include <tf2_ros/transform_broadcaster.h>
 #ifdef ROS_DISTRO_GALACTIC
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
+#include <tf2_sensor_msgs/tf2_sensor_msgs.h>
 #else
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
+#include <tf2_sensor_msgs/tf2_sensor_msgs.hpp>
 #endif
-#include <tf2_sensor_msgs/tf2_sensor_msgs.h>
 #include <tf2/transform_datatypes.h>
 #include <tf2_eigen/tf2_eigen.h>
 
